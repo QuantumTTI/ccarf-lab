@@ -1,0 +1,21 @@
+# Dependencies (regenerable via npm install — never commit)
+node_modules/
+
+# Secrets & environment
+.env
+.env.*
+env
+env.*
+
+# Personal Claude Code settings (project .claude/ stays committed!)
+.claude/settings.local.json
+
+# Personal exam progress (template stays committed)
+PROGRESS.md
+
+# Logs & OS noise
+*.log
+dist/
+npm-debug.log*
+.DS_Store
+Thumbs.db
