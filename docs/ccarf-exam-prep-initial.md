@@ -67,7 +67,7 @@ npm install @anthropic-ai/sdk @anthropic-ai/claude-agent-sdk @modelcontextprotoc
 export ANTHROPIC_API_KEY=sk-ant-...
 ```
 
-Add a small "victim" app so Claude Code has something real to work on. Ask Claude Code itself to scaffold it:
+Add a small "practice" app so Claude Code has something real to work on. Ask Claude Code itself to scaffold it:
 
 ```
 claude "Create a small Express API in src/ with three routes (customers, orders,

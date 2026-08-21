@@ -115,7 +115,7 @@ Angle: prompts suggest, hooks enforce.
 
 **1.6 Task decomposition strategies**
 Guided: prompt chaining — fixed pipeline of per-file analysis passes then one
-cross-file integration pass over victim-app.
+cross-file integration pass over practice-app.
 Independent: dynamic decomposition — "add tests to this legacy module": map
 structure first, identify high-impact areas, produce a prioritized plan that
 adapts as dependencies surface. AC: both patterns implemented; learner states
@@ -187,7 +187,7 @@ token is always wrong; community servers for standard integrations, custom
 for team-specific.
 
 **2.5 Built-in tools**
-Guided: drill on victim-app — Grep (content: find all callers of a function),
+Guided: drill on practice-app — Grep (content: find all callers of a function),
 Glob (paths: `**/*.test.tsx`), Edit (targeted change with unique anchor),
 Read+Write fallback when Edit's anchor isn't unique.
 Independent: trace a function's usage across wrapper modules (identify

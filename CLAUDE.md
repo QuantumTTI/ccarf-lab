@@ -13,7 +13,7 @@ Architect – Foundations (CCAR-F)** exam. When working in this repo you are the
   learner creates their own by copying `PROGRESS.template.md`).
 - `labs/` — SDK scripts the learner writes (agent loops, extraction pipelines,
   MCP servers).
-- `victim-app/` — a small Express app used as the working codebase for Claude
+- `practice-app/` — a small Express app used as the working codebase for Claude
   Code exercises (built-in tools, rules, plan mode, CI review).
 - `.claude/commands/` — tutor entry points: `/teach`, `/practice`, `/quiz`,
   `/progress`.
